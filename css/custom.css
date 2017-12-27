@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans:400,500,700');
+
+.navbar-default,
+.navbar-nav > li > .dropdown-menu,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover
+{
+ /* light green background for nav */
+ background-color: #9EFFE0; 
+}
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover 
+{
+ /* darker green background for active areas */
+ background-color: #00CC8B;
+}
+
+body {
+ font-size: 14px;
+ background: url(../img/tile.jpg) top left repeat;
+ font-family: 'Encode Sans', sans-serif;
+ font-weight: 500;
+}
+
+body.page-id-19 img {
+    margin-bottom: 25px;
+}
+
+a, a:active, a:hover, a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+h1.page-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2.entry-title {
+    font-size: 25px;
+}
+
+.slider-post {
+    padding: 20px;
+}
+
+.post-wrap {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+body.page-id-47 div.post-wrap {
+    margin-bottom: 20px;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 10px 0 20px;
+    border-bottom: 2px solid #a5efb0;
+}
+
+section.widget, article {
+    background: white;
+    padding: 3px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+article.comment-body {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+h2.comments-title {
+    font-size: 20px;
+}
+
+.front-slider {
+    background: white;
+    border-radius: 10px;
+}
+
+footer#colophon {
+    padding: 50px;
+    text-align: center;
+}
+
+.breadcrumbs {
+    padding-bottom: 17px;
+}
+
+body.archive .breadcrumbs {
+    padding-bottom: inherit;
+}
+
+span.website {
+    font-weight: 700;
+}
+
+a.btn-success, a.btn-success:active, a.btn-success:hover, a.btn-success:visited {
+  color:white;
+  margin-top: 7px;
+}
+
+img.wp-post-image {
+	margin-bottom: 10px;
+}
